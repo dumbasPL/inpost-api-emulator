@@ -13,8 +13,13 @@ After you have installed the certificate you need to redirect the `domain api-in
 this project uses [nodejs](https://nodejs.org/) and [yarn](https://yarnpkg.com/). Make sure you have them installed before continuing.
 
 To run the emulator first clone this repository and install the dependencies by running
-```console
+```shell
 yarn
 ```
+and the start using
+```shell
+yarn start
+```
+NOTE: The emulator need to run with admin/root preengages as it needs to listen on port 443.
 
-The emulator need to run with admin/root preengages as it needs to listen on port 443
+Now just clear app's data and register using 123456789 and any 6 digit sms code
