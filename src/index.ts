@@ -8,7 +8,7 @@ import {inspect} from 'util';
 
 const app = express();
 const port = process.env.PORT || 3000;
-const httpsPort = process.env.PORT_HTTPS || 4000;
+const httpsPort = process.env.PORT_HTTPS || 443;
 
 app.use(express.json());
 
